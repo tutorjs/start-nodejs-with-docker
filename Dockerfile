@@ -1,19 +1,13 @@
-FROM node:boron
+FROM node:6.11.2-alpine
 
-# Create app directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
-# Install app dependencies
-COPY package.json
+COPY package.json /app
 
 RUN npm install
 
-# Bundle app source
-COPY ..
+COPY . /app
 
-# Port Default
 EXPOSE 8080
 
-# Running npm start
-CMD[ "npm", "start" ]
-
+CMD [ "npm", "start" ]

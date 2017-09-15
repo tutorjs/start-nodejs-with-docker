@@ -6,6 +6,7 @@ const HOST = '0.0.0.0'
 
 // variabel app yang mereferensi ke express
 const app = express()
+
 // route public `/` yang mengembalikan respons string `Hello World`
 app.get('/', (req, res) => {
   res.send('Hello World')

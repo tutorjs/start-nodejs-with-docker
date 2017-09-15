@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/adiatma9024/start-nodejs-with-docker.git",
   "author": "adiatma <adiatma9024@gmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
