@@ -1,0 +1,9 @@
+{
+  "name": "start-nodejs-with-docker",
+  "version": "0.1.1",
+  "description": "create nodejs app with docker",
+  "main": "index.js",
+  "repository": "https://github.com/adiatma9024/start-nodejs-with-docker.git",
+  "author": "adiatma <adiatma9024@gmail.com>",
+  "license": "MIT"
+}
